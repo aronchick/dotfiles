@@ -56,3 +56,5 @@
 	cmd = subl -n $MERGED
     trustExitCode = false
 
+[push]
+	default = simple
