@@ -89,7 +89,7 @@ For Mercurial configuration and global ignore files, create these symlinks:
 ## TextMate (mate)
 For TextMate 2 settings create the following symlink:
 
-    $ ln -s ~/.dotflles/textmate/tm_properties ~/.tm_properties
+    $ ln -s ~/dotfiles/textmate/tm_properties ~/.tm_properties
 
 ## tmux (terminal multiplexer) configuration
 For tmux configuration create this symlink:
