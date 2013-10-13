@@ -11,4 +11,9 @@ source ~/.zsh/history.zsh
 source ~/.zsh/zsh_hooks.zsh
 #source ~/.zsh/hitch.zsh
 # source /opt/github/env.sh
-source  ${HOME}/.dotfiles/z/z.sh
+source  ${HOME}/Code/dotfiles/z/z.sh
+
+DISABLE_UPDATE_PROMPT=true
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+zstyle :omz:plugins:ssh-agent identities digitalcloud_rsa
+zstyle :omz:plugins:ssh-agent lifetime

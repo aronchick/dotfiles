@@ -77,21 +77,23 @@ fi
 # random shortcuts
 # -------------------------------------------------------------------
 #alias s='subl -n .'
-alias p='cd ~/Projects'
+alias c='cd ~/Code'
+alias af='cd ~/Code/ayafi'
+alias afd='cd /opt/myenv'
 alias v='vim'
 alias bu='brew update; brew upgrade; brew cleanup; brew doctor'
 
 # -------------------------------------------------------------------
 # remote machines
 # -------------------------------------------------------------------
-alias 'palantir=ssh mhn@palantir.ome.ksu.edu -p 11122'
-alias 'pvnc=open vnc://palantir.ome.ksu.edu'
-alias 'ksunix=ssh mhn@unix.ksu.edu'
-alias 'veld=ssh mhn@veld.ome.ksu.edu'
-alias 'dev=ssh mhn@ome-dev-as1.ome.campus'
-alias 'tools=ssh mhn@tools.ome.ksu.edu'
-alias 'wf=ssh markn@markn.webfactional.com'
-alias 'chef=ssh mark@129.130.49.121'
+#alias 'palantir=ssh mhn@palantir.ome.ksu.edu -p 11122'
+#alias 'pvnc=open vnc://palantir.ome.ksu.edu'
+#alias 'ksunix=ssh mhn@unix.ksu.edu'
+#alias 'veld=ssh mhn@veld.ome.ksu.edu'
+#alias 'dev=ssh mhn@ome-dev-as1.ome.campus'
+#alias 'tools=ssh mhn@tools.ome.ksu.edu'
+#alias 'wf=ssh markn@markn.webfactional.com'
+#alias 'chef=ssh mark@129.130.49.121'
 
 # -------------------------------------------------------------------
 # database
@@ -175,8 +177,8 @@ alias off="deactivate"
 # -------------------------------------------------------------------
 # Oddball stuff
 # -------------------------------------------------------------------
-alias 'sloc=/usr/local/sloccount/bin/sloccount'
-alias 'adventure=emacs -batch -l dunnet' # play adventure in the console
+#alias 'sloc=/usr/local/sloccount/bin/sloccount'
+#alias 'adventure=emacs -batch -l dunnet' # play adventure in the console
 alias 'ttop=top -ocpu -R -F -s 2 -n30' # fancy top
 alias 'rm=rm -i' # make rm command (potentially) less destructive
 
@@ -202,7 +204,7 @@ alias 'deploy=rm deploy.log ; rake deploy > deploy.log ; tail -n 3 deploy.log ;'
 alias 'np=newpost.rb'
 
 # copy .htaccess files for zanshin.net and its image sub-directory
-alias 'htaccess=scp /Users/mark/Projects/octopress/zanshin/source/htaccess/.htaccess markn@markn.webfactional.com:~/webapps/zanshin ; scp /Users/mark/Projects/octopress/zanshin/source/images/.htaccess markn@markn.webfactional.com:~/webapps/zanshin/images ;'
+#alias 'htaccess=scp /Users/mark/Projects/octopress/zanshin/source/htaccess/.htaccess markn@markn.webfactional.com:~/webapps/zanshin ; scp /Users/mark/Projects/octopress/zanshin/source/images/.htaccess markn@markn.webfactional.com:~/webapps/zanshin/images ;'
 
 # deploy zanshin.net and move its .htaccess files
 alias 'dz=deploy ; htaccess ;'
