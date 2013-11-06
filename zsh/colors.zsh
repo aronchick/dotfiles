@@ -29,3 +29,4 @@ if [[ $IS_LINUX -eq 1 ]]; then
     eval $(dircolors -b $HOME/Code/dotfiles/dircolors-solarized/dircolors.256dark)
 fi
 
+# checkin forcer
