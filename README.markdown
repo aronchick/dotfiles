@@ -3,7 +3,7 @@ easily.
 
 #Installation
 
-    git clone git://github.com/zan5hin/dotfiles.git ~/Code/dotfiles
+    git clone git://github.com/aronchick/dotfiles.git ~/Code/dotfiles
 	
 # Updating
 There are several git submodules included in this configuration. On a new
