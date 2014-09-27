@@ -13,8 +13,11 @@ source ~/.zsh/zsh_hooks.zsh
 # source /opt/github/env.sh
 source  ${HOME}/Code/dotfiles/z/z.sh
 source ~/.bin/tmuxinator.zsh
+<<<<<<< HEAD
 
 ZSH_THEME="ys"
+=======
+>>>>>>> bc05e2471b4b1a378bc2dea50e976b800961385b
 
 DISABLE_UPDATE_PROMPT=true
 zstyle :omz:plugins:ssh-agent agent-forwarding on
