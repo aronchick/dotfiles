@@ -12,6 +12,7 @@ source ~/.zsh/zsh_hooks.zsh
 #source ~/.zsh/hitch.zsh
 # source /opt/github/env.sh
 source  ${HOME}/Code/dotfiles/z/z.sh
+source ~/.bin/tmuxinator.zsh
 
 ZSH_THEME="ys"
 

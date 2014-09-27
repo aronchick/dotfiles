@@ -1,3 +1,17 @@
+<<<<<<< HEAD
 *.swp
 *.swo
 doc/tags
+=======
+# ViM files
+_backup
+_temp
+.netrwhist
+
+# Vimius file
+.vimius
+
+# Plugins without git-mirror
+watchtower.vim
+mustache.vim
+>>>>>>> bc05e2471b4b1a378bc2dea50e976b800961385b

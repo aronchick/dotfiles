@@ -32,7 +32,8 @@ Bundle 'git://git.wincent.com/command-t.git'
 filetype on
 filetype plugin on
 filetype indent on
-syntax on
+syntax enable
+set background=dark
 
 " Navigation
 " disable arrow keys
@@ -71,7 +72,7 @@ set noswapfile
 set timeoutlen=500
 
 " Set the color scheme
-colorscheme Tomorrow-Night-Bright
+colorscheme solarized
 
 " Set tab stuff
 set tabstop=2           " 2 spaces for a tab
