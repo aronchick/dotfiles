@@ -82,7 +82,7 @@ alias af='cd ~/Code/ayafi'
 alias afd='cd /opt/myenv'
 alias v='vim'
 alias bu='brew update; brew upgrade; brew cleanup; brew doctor'
-
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 # -------------------------------------------------------------------
 # remote machines
 # -------------------------------------------------------------------

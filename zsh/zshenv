@@ -17,11 +17,16 @@ if which rbenv &> /dev/null; then
     eval "$(rbenv init -)"
 fi
 
+# Add Postgresql to PATH on Mac
+ if [[ $IS_MAC -eq 1 ]]; then
+  export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin":$PATH
+  export PGDATA='/Users/aronchick/Library/Application Support/Postgres/var'
+fi
+
 # Add RVM to PATH for scripting, if rvm is present
 if which rvm-prompt &> /dev/null; then
     export PATH=$HOME/.rvm/bin:$PATH
 fi
-
 
 # if stdin is a terminal (unnecessary in .zshrc)
 if [[ -t 0 ]] ; then
@@ -30,6 +35,6 @@ if [[ -t 0 ]] ; then
   # start the ssh-agent if not already started
   [[ -z "$SSH_AGENT_PID" ]] && eval `ssh-agent`
   # add identities to the agent
-  ssh-add $HOME/.ssh/digitalcloud_rsa
+  ssh-add $HOME/.ssh/this-account-ssh-identity
 fi
 source ~/.autoenv/activate.sh
