@@ -71,6 +71,9 @@ if [[ $IS_MAC -eq 1 ]]; then
     # rebuild Launch Services to remove duplicate entries on Open With menu
     alias rebuildopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
     alias defhist='history 1 | grep "defaults"'
+
+    alias b2d='/Users/daronchick/.boot2docker/b2d.sh && $(/usr/local/bin/boot2docker shellinit) && docker version'
+
 fi
 
 # -------------------------------------------------------------------
@@ -229,3 +232,8 @@ alias nomz='ps aux | less'
 alias nomnom='killall'
 alias cya='reboot'
 alias kthxbai='halt'
+
+# ---------------------------------------------------------------------
+# AWS
+# ---------------------------------------------------------------------
+alias aws-sg="aws ec2 describe-security-groups | jq '.[][] | select(.GroupName | contains(\"aronchick\")) |  {GroupName, GroupId}'"
