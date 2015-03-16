@@ -39,7 +39,7 @@ For zsh configuration create the following symlinks:
     ln -sf ~/Code/dotfiles/zsh/zshrc ~/.zshrc
     ln -sf ~/Code/dotfiles/zsh/zshenv ~/.zshenv
     ln -sf ~/Code/dotfiles/zsh/zprofile ~/.zprofile
-		
+    ln -s ~/Code/dotfiles/ohmyzsh .oh-my-zsh
 ## ssh
 For ssh configuration, create the following symlink:
 
