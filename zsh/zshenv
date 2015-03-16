@@ -6,7 +6,9 @@ fi
 
 # Put Homebrew at the head of the path
 # /usr/local/bin is also first in /etc/paths
-export PATH="/usr/local/bin:$PATH"
+# Added home directory bin
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export PATH="$HOME/homebrew/bin:$PATH"
 
 # if rbenv is present, configure it for use
 if which rbenv &> /dev/null; then

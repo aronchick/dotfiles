@@ -89,15 +89,7 @@ alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 # -------------------------------------------------------------------
 # remote machines
 # -------------------------------------------------------------------
-#alias 'palantir=ssh mhn@palantir.ome.ksu.edu -p 11122'
-#alias 'pvnc=open vnc://palantir.ome.ksu.edu'
-#alias 'ksunix=ssh mhn@unix.ksu.edu'
-#alias 'veld=ssh mhn@veld.ome.ksu.edu'
-#alias 'dev=ssh mhn@ome-dev-as1.ome.campus'
-#alias 'tools=ssh mhn@tools.ome.ksu.edu'
-#alias 'wf=ssh markn@markn.webfactional.com'
-#alias 'chef=ssh mark@129.130.49.121'
-
+alias sshdt='~/bin/ssh-screen 375thsty.sea.corp.google.com main'
 # -------------------------------------------------------------------
 # database
 # -------------------------------------------------------------------
