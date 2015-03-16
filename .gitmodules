@@ -9,3 +9,6 @@
 [submodule "vimfiles"]
   path = vimfiles
   url = git@github.com:aronchick/adam-vim.git
+[submodule "dotfiles/ohmyzsh"]
+	path = dotfiles/ohmyzsh
+	url = https://github.com/robbyrussell/oh-my-zsh
